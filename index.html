@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Churn & Retention KPI Dashboard | EDAI Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Modular Component Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- External Visualisation Engine -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <div class="dashboard-container">
+    <!-- Component 1: Header Banner -->
+    <div id="banner-root"></div>
+
+    <!-- Component 2: Interactive Slicers / Filter Bar -->
+    <div id="filters-root"></div>
+
+    <!-- Component 3: Executive KPI Cards Banner -->
+    <div id="kpi-root"></div>
+
+    <!-- Component 4: Visual Breakdown Charts -->
+    <div id="charts-root"></div>
+
+    <!-- Component 5: Actionable Customer Outreach Table -->
+    <div id="table-root"></div>
+
+    <!-- Footer -->
+    <footer class="dashboard-footer">
+      EDAI Business KPI Portfolio Project | Fictional Customer Churn Dataset | Built for Executive BI Review
+    </footer>
+  </div>
+
+  <!-- Modular Scripts Architecture -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/state.js"></script>
+  <script src="assets/js/components/headerBanner.js"></script>
+  <script src="assets/js/components/filterBar.js"></script>
+  <script src="assets/js/components/kpiCards.js"></script>
+  <script src="assets/js/components/charts.js"></script>
+  <script src="assets/js/components/actionTable.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
